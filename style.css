@@ -1,0 +1,116 @@
+
+body {
+    background: #C454C4;
+    background-repeat:no-repeat;
+    background-size: 100%, 100%;
+
+} 
+
+p {
+    font-family:fantasy;
+    color:aliceblue;
+    text-align:center;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 50%;
+    top: auto;
+    left: auto;
+
+}
+
+div[role="article"] p {
+	text-align: justify;
+	background:#B22FB2;
+	padding: 5px;
+	max-width:600px;
+}
+
+div[role="article"] {
+	padding: 5px;	
+}
+
+h1 {
+    color: #FFE314;
+    text-align: left;
+    font-size:40px;
+}
+
+
+h2 {
+    color: #FFEE6D;
+    text-align: left;
+}
+
+h3 {
+    color: #D3BA00;
+    text-align: left;
+} 
+
+.sidebar h3 {
+	color: #6C006C;
+}
+
+footer {
+	background: #FFE314;
+	position:absolute;
+	width:100%;
+	left:0;
+	padding:10px 0;
+	text-align: center;
+	background-size: 100%, 100%;
+}
+
+#zen-intro {
+	
+	text-align: center;
+	padding: 0 20%;
+} 
+
+#zen-summary {
+	border: solid 2px #329000;
+	border-radius: 15px;
+	background:#B22FB2;
+
+} 
+
+.sidebar {
+	background: #76E23C;
+	position:absolute;
+	top: 0;
+	left:0;
+	width: 270px;
+	padding:10px;
+}
+
+.sidebar a {
+	color:#FFEE6D;
+}
+
+.page-wrapper {
+	padding-left: 300px;
+}
+
+div[role="article"] a {
+	color: #5ADF12;
+}
+
+.sidebar li {
+	border-bottom: 1px solid #329000;
+	list-style: none;
+	padding-top: 20px;
+}
+
+#design-selection > nav > ul > li > a.design-name {
+	display: block;
+}
+
+#zen-preamble {
+	font-size: 20px;
+	color: #40B700;
+} 
+
+#design-selection {
+  	color:#6C006C;
+
+}
